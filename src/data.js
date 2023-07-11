@@ -1,19 +1,19 @@
 import HeroLine from './assets/img/line-1.svg'
-// import Cut from '../src/assets/img/cut.svg'
-// import Sel from '../src/assets/img/sel.svg'
-// import Sty from '../src/assets/img/sty.svg'
-// import Cons from '../src/assets/img/cons.svg'
-// import Sup from '../src/assets/img/sup.svg'
-// import Cut from './assets/img/cut.svg'
-// import Sel from './assets/img/sel.svg'
-// import Sty from './assets/img/sty.svg'
-// import Cons from './assets/img/cons.svg'
-// import Sup from './assets/img/sup.svg'
 import Cust from './assets/img/cut.svg'
 import Sele from './assets/img/sele.svg'
 import Sty from './assets/img/solu.svg'
 import Cons from './assets/img/conc.svg'
 import Sup from './assets/img/sup.svg'
+import Gold from './assets/img/products/gold.svg'
+import Gold2 from './assets/img/products/gold2.svg'
+import Bed from './assets/img/products/sidebed.svg'
+import Bed2 from './assets/img/products/sidebed2.svg'
+import Mirror from './assets/img/products/mirror.svg'
+import Mirror2 from './assets/img/products/mirror2.svg'
+import DiaHead from './assets/img/products/diahead.svg'
+import DiaHead2 from './assets/img/products/diahead2.svg'
+import Cart from './assets/img/products/cart.svg'
+import Fave from './assets/img/products/fav.svg'
 
 
 
@@ -64,4 +64,51 @@ export const features = [
     text: 'technical support',
   },
 ];
+
+export const productsData = [
+  {
+    id: 1,
+    favImg: Fave,
+    img: Gold,
+    img2: Gold2,
+    title: 'MEEMA',
+    subtitle: 'Lorem ipsum dolor sit amet consectetur. Tellus consectetur aliquet elementum.',
+    isNew: true,
+    price: '$50.00',
+    cartIcon: Cart
+  },
+  {
+    id: 2,
+    favImg: Fave,
+    img: Bed,
+    img2: Bed2,
+    title: 'MEEMA',
+    subtitle: 'Lorem ipsum dolor sit amet consectetur. Tellus consectetur aliquet elementum.',
+    isNew: true,
+    price: '$50.00',
+    cartIcon: Cart
+  },
+  {
+    id: 3,
+    favImg: Fave,
+    img: Mirror,
+    img2: Mirror2,
+    title: 'MEEMA',
+    subtitle: 'Lorem ipsum dolor sit amet consectetur. Tellus consectetur aliquet elementum.',
+    isNew: true,
+    price: '$50.00',
+    cartIcon: Cart 
+  },
+  {
+    id: 4,
+    favImg: Fave,
+    img: DiaHead,
+    img2: DiaHead2,
+    title: 'MEEMA',
+    subtitle: 'Lorem ipsum dolor sit amet consectetur. Tellus consectetur aliquet elementum.',
+    isNew: true,
+    price: '$50.00',
+    cartIcon: Cart
+  },
+]
 

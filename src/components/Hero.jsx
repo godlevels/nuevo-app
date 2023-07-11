@@ -1,5 +1,5 @@
 import { hero } from '../data'
-import Btn from '../assets/img/right-hero.svg'
+import Btn from '../assets/img/right-hero.svg' 
 import Features from './Features';
 
 const Hero = () => {

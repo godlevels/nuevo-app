@@ -10,7 +10,7 @@ const Features = () => {
               <img className="h-[2rem] w-[2rem] md:h-[5rem] md:w-[5rem]" src={item.img} alt="" />
               <div className="capitalize text-[.6rem] md:text-[1rem] text-black font-bold">{item.text}</div>
             </div>
-          )
+          ) 
         })}
       </div>
     </div>
