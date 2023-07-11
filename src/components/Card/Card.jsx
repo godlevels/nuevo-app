@@ -12,7 +12,7 @@ const Card = ({item}) => {
             <div className="flex items-center justify-between">
                 <h3 className='text-[1.8rem] font-extrabold'>{item.price}</h3>
                 <img src={item.cartIcon} alt="" />
-            </div>
+            </div> 
         </div>
     )
 }

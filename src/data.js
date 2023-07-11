@@ -14,6 +14,10 @@ import DiaHead from './assets/img/products/diahead.svg'
 import DiaHead2 from './assets/img/products/diahead2.svg'
 import Cart from './assets/img/products/cart.svg'
 import Fave from './assets/img/products/fav.svg'
+import RomanArt from './assets/img/roman.svg'
+import RomanArt2 from './assets/img/roman2.svg'
+import FireArt from './assets/img/fire.svg'
+import FireArt2 from './assets/img/fire2.svg'
 
 
 
@@ -109,6 +113,21 @@ export const productsData = [
     isNew: true,
     price: '$50.00',
     cartIcon: Cart
+  },
+]
+
+export const artCollections = [
+  {
+    id: 1,
+    img: RomanArt,
+    img2: RomanArt2,
+    btn: 'explore'
+  },
+  {
+    id: 2,
+    img: FireArt,
+    img2: FireArt2,
+    btn: 'explore'
   },
 ]
 
