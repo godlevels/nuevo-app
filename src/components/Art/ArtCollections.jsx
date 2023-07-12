@@ -19,7 +19,7 @@ const ArtCollections = () => {
                             <div key={index}>
                                 <div className='base'>
                                     <img src={data.img} alt="" className='mainImg' />
-                                    <img src={data.img2} alt="" className='secondImg' />
+                                    {/* <img src={data.img2} alt="" className='secondImg' /> */}
                                 </div>
 
                                 <button className="capitalize bg-black rounded-[.3rem] text-[.8rem] md:text-[1rem] text-white flex items-center justify-center text-center py-3 px-[1.875rem] my-8 hover:bg-black/75 transition-all ease-in">{data.btn}</button>

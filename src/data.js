@@ -15,9 +15,13 @@ import DiaHead2 from './assets/img/products/diahead2.svg'
 import Cart from './assets/img/products/cart.svg'
 import Fave from './assets/img/products/fav.svg'
 import RomanArt from './assets/img/roman.svg'
-import RomanArt2 from './assets/img/roman2.svg'
+// import RomanArt2 from './assets/img/roman2.svg'
 import FireArt from './assets/img/fire.svg'
-import FireArt2 from './assets/img/fire2.svg'
+// import FireArt2 from './assets/img/fire2.svg'
+import Ship from './assets/img/ship.svg'
+import Pay from './assets/img/pay.svg'
+import Back from './assets/img/back.svg'
+import Fine from './assets/img/fine.svg'
 
 
 
@@ -120,14 +124,41 @@ export const artCollections = [
   {
     id: 1,
     img: RomanArt,
-    img2: RomanArt2,
+    // img2: RomanArt2,
     btn: 'explore'
   },
   {
     id: 2,
     img: FireArt,
-    img2: FireArt2,
+    // img2: FireArt2,
     btn: 'explore'
+  },
+]
+
+export const chooseData = [
+  {
+    id: 1,
+    icon: Ship,
+    title: 'Free Shiping',
+    desc: 'Free Shipping when you purchase product above $200',
+  },
+  {
+    id: 2,
+    icon: Pay,
+    title: 'Easy Payment',
+    desc: 'Make Payment of Good Purchased easily, accept all Credit and Debit Card.',
+  },
+  {
+    id: 3,
+    icon: Back,
+    title: 'Money-Back Gurantee',
+    desc: 'Get your money back when you don’t feel satisfied with product purchased.',
+  },
+  {
+    id: 4,
+    icon: Fine,
+    title: 'Finest Quality',
+    desc: 'Get the best and the finest quality of our products',
   },
 ]
 

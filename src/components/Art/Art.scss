@@ -1,4 +1,11 @@
-.img{
+.main {
+    display: flex;
+    justify-items: center;
+    row-gap: 10px;
+    margin: 5rem 0;  
+.div{
+    height: 100%;
+    width: 100%;
     overflow: hidden;
     position: relative;
 
@@ -19,4 +26,5 @@
     .mainImg{
         z-index: 1;
     }
+}
 }
