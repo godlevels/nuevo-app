@@ -1,27 +1,49 @@
+import { Children } from "react";
+import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import Home from "./pages/Home/Home";
+import Products from "./pages/Products/Products";
+import Product from "./pages/Product/Product";
 
-// import components
 
-import ArtCollections from "./components/Art/ArtCollections";
-import Explore from "./components/Explore";
-import Hero from "./components/Hero";
-import Hire from "./components/Hire";
-import Inspiration from "./components/Inspiration/Inspiration";
-import SelectedProducts from "./components/SelectedProducts";
-import WhyChoose from "./components/WhyChoose";
-
-const App = () => {
+const Layout = () => {
   return (
-    <div className="">
-      <Hero />
-      <Explore />
-      <SelectedProducts type='featured' />
-      <ArtCollections />
-      <WhyChoose />
-      <SelectedProducts type='trending' />
-      <Inspiration />
-      <Hire />
-    </div>
+    <div>
+      <Navbar />
+        <Outlet />
+      <Footer />
+    </div> 
   )
 };
 
-export default App;
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Layout />,
+    children: [
+      {
+        path: "/",
+        element: <Home />
+      },
+      {
+        path: "/products/:id",
+        element: <Products />
+      },
+      {
+        path: "/product/:id",
+        element: <Product />
+      }
+    ]
+
+  }
+])
+
+  function App() {
+    return (
+      <div>
+        <RouterProvider router={router} />
+      </div>
+    )
+  }
+  export default App;
