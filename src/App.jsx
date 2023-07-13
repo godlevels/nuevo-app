@@ -4,6 +4,8 @@
 import ArtCollections from "./components/Art/ArtCollections";
 import Explore from "./components/Explore";
 import Hero from "./components/Hero";
+import Hire from "./components/Hire";
+import Inspiration from "./components/Inspiration/Inspiration";
 import SelectedProducts from "./components/SelectedProducts";
 import WhyChoose from "./components/WhyChoose";
 
@@ -16,6 +18,8 @@ const App = () => {
       <ArtCollections />
       <WhyChoose />
       <SelectedProducts type='trending' />
+      <Inspiration />
+      <Hire />
     </div>
   )
 };
